@@ -1,0 +1,13 @@
+# Language Planner Dependencies
+# Install with: pip install -r requirements.txt
+
+# LLM API Client
+groq>=0.4.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Data visualization (for analysis scripts)
+matplotlib>=3.7.0
+
+# Standard library difflib is used for fuzzy matching (no install needed)

@@ -1,0 +1,74 @@
+{
+  "llama-3.3-70b-versatile_Huang": {
+    "model": "llama-3.3-70b-versatile",
+    "planner": "Huang",
+    "executability": 55.00000000000001,
+    "correctness": 35.0,
+    "avg_api_calls": 1.0,
+    "total_tasks": 20
+  },
+  "llama-3.3-70b-versatile_Contextual": {
+    "model": "llama-3.3-70b-versatile",
+    "planner": "Contextual",
+    "executability": 100.0,
+    "correctness": 90.0,
+    "avg_api_calls": 1.0,
+    "total_tasks": 20
+  },
+  "llama-3.3-70b-versatile_RepairFirst": {
+    "model": "llama-3.3-70b-versatile",
+    "planner": "RepairFirst",
+    "executability": 100.0,
+    "correctness": 80.0,
+    "avg_api_calls": 1.05,
+    "total_tasks": 20
+  },
+  "openai/gpt-oss-120b_Huang": {
+    "model": "openai/gpt-oss-120b",
+    "planner": "Huang",
+    "executability": 55.00000000000001,
+    "correctness": 50.0,
+    "avg_api_calls": 1.0,
+    "total_tasks": 20
+  },
+  "openai/gpt-oss-120b_Contextual": {
+    "model": "openai/gpt-oss-120b",
+    "planner": "Contextual",
+    "executability": 90.0,
+    "correctness": 75.0,
+    "avg_api_calls": 1.0,
+    "total_tasks": 20
+  },
+  "openai/gpt-oss-120b_RepairFirst": {
+    "model": "openai/gpt-oss-120b",
+    "planner": "RepairFirst",
+    "executability": 95.0,
+    "correctness": 75.0,
+    "avg_api_calls": 1.0,
+    "total_tasks": 20
+  },
+  "qwen/qwen3-32b_Huang": {
+    "model": "qwen/qwen3-32b",
+    "planner": "Huang",
+    "executability": 0.0,
+    "correctness": 0.0,
+    "avg_api_calls": 1.0,
+    "total_tasks": 20
+  },
+  "qwen/qwen3-32b_Contextual": {
+    "model": "qwen/qwen3-32b",
+    "planner": "Contextual",
+    "executability": 10.0,
+    "correctness": 0.0,
+    "avg_api_calls": 1.0,
+    "total_tasks": 20
+  },
+  "qwen/qwen3-32b_RepairFirst": {
+    "model": "qwen/qwen3-32b",
+    "planner": "RepairFirst",
+    "executability": 20.0,
+    "correctness": 15.0,
+    "avg_api_calls": 2.6,
+    "total_tasks": 20
+  }
+}

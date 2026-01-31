@@ -1,0 +1,23 @@
+\begin{table}[h]
+\centering
+\caption{Executability and Correctness: Paper vs. Our Implementation}
+\label{tab:results}
+\begin{tabular}{llcccc}
+\toprule
+\textbf{Source} & \textbf{Method} & \textbf{Exec (\%)} & \textbf{Corr (\%)} & \textbf{API Calls} \\
+\midrule
+% Paper baselines (Huang et al. 2022)
+Paper & GPT-3 175B (Vanilla) & 7.8 & 24.2* & 1.00 \\
+Paper & GPT-3 175B (Translated) & 73.1 & 24.1 & 1.00 \\
+Paper & Codex 12B (Translated) & 78.6 & 25.7 & 1.00 \\
+Paper & Human Expert & 100.0 & 70.1 & -- \\
+\midrule
+% Our results
+Ours & Huang (LLAMA) & 45.0 & 40.0 & 1.00 \\
+Ours & Contextual (LLAMA) & 95.0 & 85.0 & 1.00 \\
+Ours & RepairFirst (LLAMA) & 100.0 & 85.0 & 1.05 \\
+\bottomrule
+\end{tabular}
+\vspace{2mm}
+\footnotesize{*LCS score used as proxy for correctness in vanilla models.}
+\end{table}
